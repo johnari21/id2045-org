@@ -1,7 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AuthController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\​BeneficiaryController;
+use App\Http\Controllers\VolunteerController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,3 +18,8 @@ use App\Http\Controllers\HomeController;
 */
 
 Route::get('/', [HomeController::class, 'index']);
+Route::get('/login', [AuthController::class, 'index']);
+Route::get('/logout', [AuthController::class, 'logout']);
+Route::get('/beneficiary', [​BeneficiaryController::class, 'index']);
+Route::get('/beneficiary/detail', [​BeneficiaryController::class, 'detail']);
+Route::get('/volunteer', [VolunteerController::class, 'index']);
