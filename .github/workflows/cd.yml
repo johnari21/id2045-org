@@ -1,0 +1,43 @@
+name: ci
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  laravel-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: shivammathur/setup-php@15c43e89cdef867065b0213be354c2841860869e
+        with:
+          php-version: "8.1"
+      - uses: actions/checkout@v3
+      - name: Create .env file
+        run: |
+          echo "${{ secrets.ENV_FILE }}" > .env
+      - name: Install composer dependencies
+        run: composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist --optimize-autoloader --no-dev
+      - name: Install node dependencies
+        run: npm ci --omit=dev
+      - name: Install node dependencies
+        run: |
+          php artisan config:clear
+          php artisan cache:clear
+          php artisan key:generate
+          npm run build
+          pwd
+      - name: Directory Permissions
+        run: chmod -R 755 storage bootstrap/cache
+      - name: executing remote ssh commands using password
+        uses: appleboy/ssh-action@v0.1.10
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.PRIVATE_KEY }}
+          port: ${{ secrets.PORT }}
+          script: |
+            pwd
+            composer i -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist --optimize-autoloader --no-dev
+            npm ci --omit=dev
+            npm run prod
