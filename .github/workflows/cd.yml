@@ -25,7 +25,6 @@ jobs:
           php artisan config:clear
           php artisan cache:clear
           php artisan key:generate
-          npm run build
           pwd
       - name: Directory Permissions
         run: chmod -R 755 storage bootstrap/cache
@@ -40,4 +39,3 @@ jobs:
             pwd
             composer i -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist --optimize-autoloader --no-dev
             npm ci
-            npm run prod
