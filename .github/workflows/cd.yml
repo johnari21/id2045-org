@@ -19,7 +19,7 @@ jobs:
       - name: Install composer dependencies
         run: composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist --optimize-autoloader --no-dev
       - name: Install node dependencies
-        run: npm ci --omit=dev
+        run: npm ci
       - name: Install node dependencies
         run: |
           php artisan config:clear
@@ -39,5 +39,5 @@ jobs:
           script: |
             pwd
             composer i -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist --optimize-autoloader --no-dev
-            npm ci --omit=dev
+            npm ci
             npm run prod
