@@ -60,7 +60,7 @@
         <div class="row">
 
             <div class="col-lg-10 col-12 text-center mx-auto">
-                <h2 class="mb-5">Welcome to Indonesia Emas 2045</h2>
+                <h2 class="mb-5">Welcome to ID2045</h2>
             </div>
 
             <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
