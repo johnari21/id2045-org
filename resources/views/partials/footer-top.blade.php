@@ -24,7 +24,7 @@
                 <i class="bi-telephone me-2"></i>
 
                 <a href="tel: 628111234566" class="site-footer-link">
-                628111234566
+                    628111234566
                 </a>
             </p>
 
@@ -32,7 +32,7 @@
                 <i class="bi-envelope me-2"></i>
 
                 <a href="mailto:halo.id2045@gmail.com" class="site-footer-link">
-                halo.id2045@gmail.com
+                    halo.id2045@gmail.com
                 </a>
             </p>
 
