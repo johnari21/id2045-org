@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg bg-light shadow-lg">
     <div class="container">
         <a class="navbar-brand" href="/">
-            <img src="{{ asset('images/logo.png') }}" class="logo img-fluid" alt="Kind Heart Charity">
+            <img src="{{ asset('images/ID2045.png') }}" class="logo img-fluid" alt="Kind Heart Charity">
             <span>
                 Indonesia Emas 2045
                 <small>Non-profit Organization</small>
