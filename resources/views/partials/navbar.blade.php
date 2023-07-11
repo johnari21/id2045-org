@@ -1,9 +1,9 @@
 <nav class="navbar navbar-expand-lg bg-light shadow-lg">
     <div class="container">
         <a class="navbar-brand" href="/">
-            <img src="images/logo.png" class="logo img-fluid" alt="Kind Heart Charity">
+            <img src="images/ID2045.png" class="logo img-fluid" alt="Kind Heart Charity">
             <span>
-                Indonesia Emas 2045
+                ID2045
                 <small>Non-profit Organization</small>
             </span>
         </a>
@@ -20,15 +20,15 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link click-scroll" href="/#section_2">About</a>
+                    <a class="nav-link click-scroll" href="/#layanan">Layanan</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link click-scroll" href="/#section_4">Volunteer</a>
+                    <a class="nav-link click-scroll" href="/#about">About</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link click-scroll" href="/#section_6">Contact</a>
+                    <a class="nav-link click-scroll" href="/#contact">Contact</a>
                 </li>
 
                 <li class="nav-item ms-3">
