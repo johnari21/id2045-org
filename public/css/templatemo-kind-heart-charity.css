@@ -49,12 +49,12 @@ https://templatemo.com/tm-581-kind-heart-charity
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
-  --primary-color:                #5bc1ac;
-  --secondary-color:              #5a6f80;
+  --primary-color:                #6B0F1A;
+  --secondary-color:              #31081F;
   --section-bg-color:             #f0f8ff;
-  --site-footer-bg-color:         #44525d;
+  --site-footer-bg-color:         #0E0004;
   --custom-btn-bg-color:          #597081;
-  --custom-btn-bg-hover-color:    #5bc1ac;
+  --custom-btn-bg-hover-color:    #6B0F1A;
   --dark-color:                   #000000;
   --p-color:                      #717275;
   --border-color:                 #e9eaeb;
@@ -721,17 +721,6 @@ strong {
   overflow: hidden;
 }
 
-.volunteer-section::after {
-  content: "";
-  background: var(--primary-color);
-  border-radius: 50%;
-  position: absolute;
-  bottom: -110px;
-  right: -80px;
-  width: 350px;
-  height: 350px;
-}
-
 .volunteer-form {
   background: var(--white-color);
   border-radius: var(--border-radius-medium);
@@ -909,17 +898,6 @@ blockquote::before {
   overflow: hidden;
 }
 
-.cta-section::before {
-  content: "";
-  background-color: var(--primary-color);
-  border-radius: 50%;
-  position: absolute;
-  top: -100px;
-  left: -30px;
-  margin: auto;
-  width: 200px;
-  height: 200px;
-}
 
 .cta-section::after {
   content: "";
