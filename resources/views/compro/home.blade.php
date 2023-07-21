@@ -55,7 +55,7 @@
     </div>
 </section>
 
-<section class="section-padding" id="layanan">
+<section class="section-padding" id="services">
     <div class="container">
         <div class="row">
 
@@ -235,7 +235,7 @@
             <div class="col-lg-5 col-12">
                 <a href="#" class="me-4">Ayuk Bergabung</a>
 
-                <a href="#layanan" class="custom-btn btn smoothscroll">Bersama Kami</a>
+                <a href="#services" class="custom-btn btn smoothscroll">Bersama Kami</a>
             </div>
 
         </div>
