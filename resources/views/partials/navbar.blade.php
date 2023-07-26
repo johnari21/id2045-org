@@ -20,7 +20,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link click-scroll" href="/#layanan">Layanan</a>
+                    <a class="nav-link click-scroll" href="/#services">Services</a>
                 </li>
 
                 <li class="nav-item">
