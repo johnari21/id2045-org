@@ -15,4 +15,9 @@ class ​BeneficiaryController extends Controller
     {
         return view('beneficiary.detail');
     }
+
+    public function bansos()
+    {
+        return view('beneficiary.bansos');
+    }
 }
