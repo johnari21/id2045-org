@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg bg-light shadow-lg">
     <div class="container">
         <a class="navbar-brand" href="/">
-            <img src="images/ID2045.png" class="logo img-fluid" alt="Kind Heart Charity">
+            <img src="{{ asset('images/ID2045.png') }}" class="logo img-fluid" alt="Kind Heart Charity">
             <span>
                 ID2045
                 <small>Non-profit Organization</small>
@@ -29,6 +29,10 @@
 
                 <li class="nav-item">
                     <a class="nav-link click-scroll" href="/#contact">Contact</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link click-scroll" href="/beneficiary">Form</a>
                 </li>
 
                 <li class="nav-item ms-3">

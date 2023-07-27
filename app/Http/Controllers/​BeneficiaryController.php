@@ -8,7 +8,7 @@ class ​BeneficiaryController extends Controller
 {
     public function index()
     {
-        return view('beneficiary.index');
+        return view('beneficiary.detail');
     }
 
     public function detail()
