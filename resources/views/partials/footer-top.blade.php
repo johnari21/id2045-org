@@ -10,7 +10,7 @@
             <ul class="footer-menu">
                 <li class="footer-menu-item"><a href="#top" class="footer-menu-link">Home</a></li>
 
-                <li class="footer-menu-item"><a href="#layanan" class="footer-menu-link">Layanan</a></li>
+                <li class="footer-menu-item"><a href="#services" class="footer-menu-link">services</a></li>
 
                 <li class="footer-menu-item"><a href="#about" class="footer-menu-link">About</a></li>
                 </li>
