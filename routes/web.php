@@ -22,4 +22,5 @@ Route::get('/login', [AuthController::class, 'index']);
 Route::get('/logout', [AuthController::class, 'logout']);
 Route::get('/beneficiary', [​BeneficiaryController::class, 'index']);
 Route::get('/beneficiary/detail', [​BeneficiaryController::class, 'detail']);
+Route::get('/beneficiary/bansos', [​BeneficiaryController::class, 'bansos']);
 Route::get('/volunteer', [VolunteerController::class, 'index']);

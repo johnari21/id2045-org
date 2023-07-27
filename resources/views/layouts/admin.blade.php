@@ -32,7 +32,7 @@
     <script src="{{ asset('js/bootstrap.min.js') }}"></script>
     <script src="{{ asset('js/jquery.sticky.js') }}"></script>
     <script src="{{ asset('js/counter.js') }}"></script>
-    <script src="{{ asset('s/custom.js') }}"></script>
+    <script src="{{ asset('js/custom.js') }}"></script>
 
 </body>
 

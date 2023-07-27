@@ -32,7 +32,11 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link click-scroll" href="/beneficiary">Form</a>
+                    <a class="nav-link click-scroll" href="/beneficiary">Form Beasiswa</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link click-scroll" href="/beneficiary/bansos">Form Bansos</a>
                 </li>
 
                 <li class="nav-item ms-3">
