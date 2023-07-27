@@ -11,11 +11,11 @@
     <title></title>
 
     <!-- CSS FILES -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
 
-    <link href="css/bootstrap-icons.css" rel="stylesheet">
+    <link href="{{ asset('css/bootstrap-icons.css') }}" rel="stylesheet">
 
-    <link href="css/templatemo-kind-heart-charity.css" rel="stylesheet">
+    <link href="{{ asset('css/templatemo-kind-heart-charity.css') }}" rel="stylesheet">
 </head>
 
 <body>
@@ -28,11 +28,11 @@
 
     @include('partials.footer')
     <!-- JAVASCRIPT FILES -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.sticky.js"></script>
-    <script src="js/counter.js"></script>
-    <script src="js/custom.js"></script>
+    <script src="{{ asset('js/jquery.min.js') }}"></script>
+    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('js/jquery.sticky.js') }}"></script>
+    <script src="{{ asset('js/counter.js') }}"></script>
+    <script src="{{ asset('js/custom.js') }}"></script>
 
 </body>
 
